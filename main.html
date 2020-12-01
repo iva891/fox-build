@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Главная
+    </title>
+    <link rel="stylesheet" href="css/main.css?v=1606838343300">
+  </head>
+  <body>
+    <div class="page">
+            <header class="header">
+              <div class="wrapper wrapper--line">
+                <div class="header__part">
+                  <div class="header__column"><a class="logo" href="index.html"><img class="logo-white" src="images/logo-white.svg" alt="logo"><img class="logo-dark" src="images/logo.svg" alt="logo"></a>
+                    <div class="header-lang"><a class="link link--default active" href="#">Рус</a><a class="link link--default" href="#">Eng</a></div>
+                  </div>
+                  <div class="header__column header__column--menu">
+                    <div class="btn btn--bor-white btn--small header-btn-menu js-open-menu">
+                      <div class="header-btn-menu__data">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#burger"></use>
+                        </svg><span>Меню</span>
+                      </div>
+                      <div class="header-btn-menu__data hide">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#close-orange"></use>
+                        </svg><span>Закрыть</span>
+                      </div>
+                    </div>
+                    <nav class="nav js-nav">
+                      <ul class="nav-list">
+                        <li class="nav-item"><a class="link link--default" href="#">Размещение</a></li>
+                        <li class="nav-item"><a class="link link--default" href="#">Стрельба</a></li>
+                        <li class="nav-item"><a class="link link--default" href="#">Развлечения</a></li>
+                        <li class="nav-item"><a class="link link--default" href="#">Мероприятия</a></li>
+                        <li class="nav-item"><a class="link link--default" href="#">Контакты</a></li>
+                      </ul>
+                    </nav>
+                    <div class="header-search">
+                      <form name="search-from" action="">
+                        <label class="form-field">
+                          <input class="form-field__input form-field__input--gray" name="search" type="search" placeholder="Поиск по сайту" required>
+                        </label>
+                        <button class="header-icon header-icon--search" type="submit">
+                          <svg>
+                            <use xlink:href="images/sprites.svg#search"></use>
+                          </svg>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="header__column header__column--btn"><a class="header-icon header-icon--lk" href="#">
+                      <svg>
+                        <use xlink:href="images/sprites.svg#person"></use>
+                      </svg></a><a class="btn btn--small" href="#">Забронировать</a></div>
+                </div>
+              </div>
+              <div class="menu js-menu">
+                <div class="wrapper wrapper--medium"> 
+                  <div class="header-search">
+                    <form name="search-from" action="">
+                      <label class="form-field">
+                        <input class="form-field__input form-field__input--gray" name="search" type="search" placeholder="Поиск по сайту" required>
+                      </label>
+                      <button class="header-icon header-icon--search" type="submit">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#search"></use>
+                        </svg>
+                      </button>
+                    </form>
+                  </div>
+                  <div class="menu__list">
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Размещение</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Бумеранг</a></li>
+                          <li><a class="link link--default" href="#">Коттеджи</a></li>
+                          <li><a class="link link--default" href="#">FOX-INN</a></li>
+                          <li><a class="link link--default" href="#">Лоджи Highlands</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Рестораны</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">RED DEER</a></li>
+                          <li><a class="link link--default" href="#">СПА-Кафе</a></li>
+                          <li><a class="link link--default" href="#">Барбекю</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Стрельба</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Стрельба по тарелочкам</a></li>
+                          <li><a class="link link--default" href="#">Пулевая стрельба</a></li>
+                          <li><a class="link link--default" href="#">Оружейная мастерская</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Foxland SPA</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Услуги SPA</a></li>
+                          <li><a class="link link--default" href="#">Контакты</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Развлечения</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Спортивные площадки</a></li>
+                          <li><a class="link link--default" href="#">Фитнес</a></li>
+                          <li><a class="link link--default" href="#">Ледовая Арена</a></li>
+                          <li><a class="link link--default" href="#">Прокат инвентаря</a></li>
+                          <li><a class="link link--default" href="#">Спортивные маршруты</a></li>
+                          <li><a class="link link--default" href="#">Рыбалка</a></li>
+                          <li><a class="link link--default" href="#">Детские площадки</a></li>
+                          <li><a class="link link--default" href="#">Гольф-симулятор</a></li>
+                          <li><a class="link link--default" href="#">Виртуальный тир</a></li>
+                          <li><a class="link link--default" href="#">Бильярд</a></li>
+                          <li><a class="link link--default" href="#">Боулинг</a></li>
+                          <li><a class="link link--default" href="#">Караоке</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Мероприятия</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Корпоративные мероприятия</a></li>
+                          <li><a class="link link--default" href="#">Частные мероприятия</a></li>
+                          <li><a class="link link--default" href="#">Для Event-агентств</a></li>
+                          <li><a class="link link--default" href="#">Календарь мероприятий</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Лисья нора</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">О нас</a></li>
+                          <li><a class="link link--default" href="#">Клубные и подарочные карты</a></li>
+                          <li><a class="link link--default" href="#">Новости</a></li>
+                          <li><a class="link link--default" href="#">Документы</a></li>
+                          <li><a class="link link--default" href="#">Контакты</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+      <main class="main" id="main">
+        <section class="slider">
+          <div class="slider__wrap">
+            <div class="slider__shadow"></div>
+            <div class="slider__slider js-main-slider swiper-container">
+              <div class="swiper-wrapper">
+                <div class="slider-item swiper-slide">
+                  <div class="slider-item__wrap-block">
+                    <div class="slider-item__block">
+                      <div class="slider-item__image" style="background-image: url(images/slide-1.jpg)"></div>
+                      <video class="slider-item__vid-ps" loop="loop" autoplay="autoplay" muted="muted">
+                        <source src="video/video-3.mp4" type="video/mp4"/>
+                      </video>
+                      <video class="slider-item__vid-mob" loop="loop" autoplay="autoplay" muted="muted" playsinline="playsinline">
+                        <source src="video/video-3.mp4" type="video/mp4"/>
+                      </video>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                  <div class="slider-item__wrap-block">
+                    <div class="slider-item__block">
+                      <div class="slider-item__image" style="background-image: url(images/slide-1.jpg)"></div>
+                      <video class="slider-item__vid-ps" loop="loop" autoplay="autoplay" muted="muted">
+                        <source src="video/video-2.mp4" type="video/mp4"/>
+                      </video>
+                      <video class="slider-item__vid-mob" loop="loop" autoplay="autoplay" muted="muted" playsinline="playsinline">
+                        <source src="video/video-2.mp4" type="video/mp4"/>
+                      </video>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                  <div class="slider-item__wrap-block">
+                    <div class="slider-item__block">
+                      <div class="slider-item__image" style="background-image: url(images/slide-1.jpg)"></div>
+                      <video class="slider-item__vid-ps" loop="loop" autoplay="autoplay" muted="muted">
+                        <source src="video/video-1.mp4" type="video/mp4"/>
+                      </video>
+                      <video class="slider-item__vid-mob" loop="loop" autoplay="autoplay" muted="muted" playsinline="playsinline">
+                        <source src="video/video-1.mp4" type="video/mp4"/>
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-category js-slider-category swiper-container">
+              <div class="swiper-wrapper">
+                <div class="slider-category__item swiper-slide"><span>01 </span>
+                  <h6>Отдых за рубежом... Москвы</h6>
+                  <div class="animate-line"></div>
+                </div>
+                <div class="slider-category__item swiper-slide"><span>02</span>
+                  <h6>Ценителям активного отдыха</h6>
+                  <div class="animate-line"></div>
+                </div>
+                <div class="slider-category__item swiper-slide"><span>03</span>
+                  <h6>Стрельба - любителям и профессионалам</h6>
+                  <div class="animate-line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-about">
+              <div class="wrapper wrapper--large">
+                <div class="slider-about__part">
+                  <h1>Уникальное место</h1>
+                  <div class="slider-about__desc"> 
+                    <h6>Загородный отдых для всей семьи  на обширной, охраняемой территории. </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="soc soc--orange soc--white"><a class="soc-link" href="#">
+                  <div class="icon icon--soc icon--instagram">
+                    <svg>
+                      <use xlink:href="images/sprites.svg#instagram"></use>
+                    </svg>
+                  </div></a><a class="soc-link" href="#">
+                  <div class="icon icon--soc icon--facebbok">
+                    <svg>
+                      <use xlink:href="images/sprites.svg#facebbok"></use>
+                    </svg>
+                  </div></a></div>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="wrapper wrapper--large">
+            <div class="about__part">
+              <div class="about__desc left-indent">
+                <h2 class="title-decor">Лисья нора </h2>
+                <div class="about__desc-unit">
+                  <h6 class="title-line">Зона отдыха</h6>
+                  <div class="numeral numeral--line-top">80 га</div>
+                  <p>Завтрак у озера, прогулки на свежем воздухе, чистый водоем с песчаным пляжем – все это в 39 км от Москвы.</p>
+                </div>
+              </div>
+              <div class="about__image anim-image js-effect"><img src="images/image-1.jpg" alt="image"></div>
+            </div>
+          </div>
+        </section>
+        <section class="services">
+          <div class="wrapper wrapper--large">
+            <div class="services__top left-indent">
+              <h2>Многообразие услуг   </h2>
+              <div class="services__desc">
+                <p>В одном комплексе сочетаются разнообразные возможности для спорта, отдыха и восстановления сил.</p>
+              </div>
+            </div>
+            <div class="left-indent">
+              <div class="navigation-arrows">
+                <div class="navigation-arrows__item js-prev-services">
+                  <svg>
+                    <use xlink:href="images/sprites.svg#prev"></use>
+                  </svg>
+                </div>
+                <div class="navigation-arrows__item js-next-services">
+                  <svg>
+                    <use xlink:href="images/sprites.svg#next"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="services-slider swiper-container js-slider-services">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="services-block" href="#">
+                      <div class="services-block__image"><img src="images/services-1.jpg" alt="image"/></div>
+                      <h6>Спортивные площадки</h6></a>
+                  </div>
+                  <div class="swiper-slide"><a class="services-block" href="#">
+                      <div class="services-block__image"><img src="images/services-2.jpg" alt="image"/></div>
+                      <h6>Фитнес</h6></a>
+                  </div>
+                  <div class="swiper-slide"><a class="services-block" href="#">
+                      <div class="services-block__image"><img src="images/services-3.jpg" alt="image"/></div>
+                      <h6>Прогулочные маршруты</h6></a>
+                  </div>
+                  <div class="swiper-slide"><a class="services-block" href="#">
+                      <div class="services-block__image"><img src="images/serivices-4.jpg" alt="image"/></div>
+                      <h6>Рыбалка</h6></a>
+                  </div>
+                  <div class="swiper-slide"><a class="services-block" href="#">
+                      <div class="services-block__image"><img src="images/services-2.jpg" alt="image"/></div>
+                      <h6>Фитнес</h6></a>
+                  </div>
+                  <div class="swiper-slide"><a class="services-block" href="#">
+                      <div class="services-block__image"><img src="images/services-3.jpg" alt="image"/></div>
+                      <h6>Прогулочные маршруты</h6></a>
+                  </div>
+                  <div class="swiper-slide"><a class="services-block" href="#">
+                      <div class="services-block__image"><img src="images/services-2.jpg" alt="image"/></div>
+                      <h6>Фитнес</h6></a>
+                  </div>
+                  <div class="swiper-slide"><a class="services-block" href="#">
+                      <div class="services-block__image"><img src="images/services-3.jpg" alt="image"/></div>
+                      <h6>Прогулочные маршруты</h6></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="banner">
+          <div class="wrapper wrapper--large">
+            <div class="banner__inner">
+              <div class="banner__part left-indent">
+                <div class="banner__desc">
+                  <h2>Лучший подарок для ваших друзей!</h2><a class="btn btn--white btn--small" href="#">Подарочные карты</a>
+                </div>
+                <div class="banner__image"><img src="images/banner-1.png" alt="img"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="architecture">
+          <div class="wrapper wrapper--large">
+            <div class="architecture__part architecture__part--top">
+              <div class="architecture__block">
+                <div class="left-indent"> 
+                  <h2>Необычная архитектура </h2>
+                </div>
+              </div>
+              <div class="architecture__block">
+                <p>На территории гостиничных корпусов Бумеранг и FOX-INN каждый номер оснащен отдельным входом с улицы и террасой с видом на озеро и лесные ландшафты. </p>
+              </div>
+            </div>
+            <div class="architecture__part">
+              <div class="architecture__block">
+                <div class="left-indent">
+                  <h6>FOX-INN</h6>
+                </div>
+                <div class="architecture__image anim-image js-effect"><img src="images/obj-1.jpg" alt="img"></div>
+              </div>
+              <div class="architecture__block"> 
+                <h6>Бумеранг</h6>
+                <div class="architecture__image anim-image js-effect"> <img src="images/obj-2.jpg" alt="img"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="video-content">
+          <div class="content">
+            <div class="content__preview"></div>
+            <video class="content__video" muted loop>
+              <source src="video/video-2.mp4" type="video/mp4">
+            </video>
+            <svg class="content__icon js-square js-stack" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100px" width="100px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+              <path class="stroke-solid" fill="none" stroke="white" d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7C97.3,23.7,75.7,2.3,49.9,2.5"></path>
+              <path class="stroke-dotted" fill="none" stroke="white" d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7C97.3,23.7,75.7,2.3,49.9,2.5"></path>
+              <path class="icon" fill="white" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"></path>
+            </svg>
+            <div class="content__video-bar">
+              <div class="content__video-progress"></div>
+              <div class="content__video-drag"></div>
+            </div>
+          </div>
+          <div class="wrapper wrapper--medium">
+            <div class="video-content__block">
+              <div class="video-content__unit">
+                <p>Место, где можно встретить оленей, отдохнуть  на песчаном пляже или покататься на лодке.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="rest"> 
+          <div class="wrapper wrapper--medium">
+            <div class="rest__inner">
+              <div class="rest__title">
+                <h2>Рестораны</h2>
+              </div>
+              <div class="rest-slider js-rest-slider swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="rest-block swiper-slide">
+                    <div class="rest-block__part"> 
+                      <div class="rest-block__desc"> 
+                        <h4>RED DEER</h4>
+                        <p>Бар, ресторан с русской и европейской кухней, фирменными деликатесами и разнообразной винной картой. К столу - свежие фермерские продукты, которые можно купить и для дома. </p>
+                      </div>
+                      <div class="rest-block__image"><img src="images/rest-1.jpg"/></div>
+                    </div>
+                  </div>
+                  <div class="rest-block swiper-slide">
+                    <div class="rest-block__part"> 
+                      <div class="rest-block__desc"> 
+                        <h4>СПА-Кафе</h4>
+                        <p>Бар, ресторан с русской и европейской кухней, фирменными деликатесами и разнообразной винной картой. К столу - свежие фермерские продуктыдля дома.</p>
+                      </div>
+                      <div class="rest-block__image"><img src="images/rest-1.jpg"/></div>
+                    </div>
+                  </div>
+                  <div class="rest-block swiper-slide">
+                    <div class="rest-block__part"> 
+                      <div class="rest-block__desc"> 
+                        <h4>RED DEER</h4>
+                        <p>Бар, ресторан с русской и европейской кухней, фирменными деликатесами и разнообразной винной картой. К столу - свежие фермерские продукты, которые можно купить и для дома. </p>
+                      </div>
+                      <div class="rest-block__image"><img src="images/rest-1.jpg"/></div>
+                    </div>
+                  </div>
+                  <div class="rest-block swiper-slide">
+                    <div class="rest-block__part"> 
+                      <div class="rest-block__desc"> 
+                        <h4>СПА-Кафе</h4>
+                        <p>Бар, ресторан с русской и европейской кухней, фирменными деликатесами и разнообразной фермерские продукты, которые можно купить и для дома.</p>
+                      </div>
+                      <div class="rest-block__image"><img src="images/rest-1.jpg"/></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="navigation-arrows">
+                  <div class="navigation-arrows__item js-prev-rest">
+                    <svg>
+                      <use xlink:href="images/sprites.svg#prev"></use>
+                    </svg>
+                  </div>
+                  <div class="navigation-arrows__item js-next-rest">
+                    <svg>
+                      <use xlink:href="images/sprites.svg#next"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="spa"> 
+          <div class="wrapper">
+            <div class="spa__part">
+              <div class="spa__image anim-image js-effect"><img src="images/spa-1.jpg" alt="image"></div>
+              <div class="spa__image spa__image--right anim-image js-effect"><img src="images/spa-2.jpg" alt="image"></div>
+              <div class="spa-desc">
+                <h2>FOXLAND  SPA</h2>
+                <p>SPA с уникальным набором услуг в эко-стиле, уходы для лица и тела на основе натуральных компонентов от ведущих мировых брендов. Баня с купелью в чистейшем озере.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="complex">
+          <div class="wrapper">
+            <div class="complex__title">
+              <h2>Стрелковый комплекс</h2>
+            </div>
+            <div class="complex__part">
+              <div class="complex__block">
+                <div class="complex__image2 anim-image js-effect"><img src="images/complex-1.jpg" alt="image"></div>
+                <div class="spa-desc">
+                  <h2>Стрелковый комплекс</h2>
+                  <h4>Крупнейший стрелковый комплекс в Европе</h4>
+                  <p>Тренировки круглый год на площадках  для спортинга в естественном природном ландшафте либо в пулевых тирах открытого и закрытого типа. Можно заказать услуги инструктора по стрельбе, приобрести в магазине одежду и спортивное снаряжение, отремонтировать оружие в нашей мастерской. </p>
+                </div>
+              </div>
+              <div class="complex__image anim-image js-effect"><img src="images/complex-2.jpg" alt="image"></div>
+            </div>
+          </div>
+        </section>
+        <section class="events">
+          <div class="wrapper">
+            <h2>Мероприятия </h2>
+            <div class="events__top"> 
+              <div class="events__title">
+                <h4>Прекрасная площадка для проведения корпоративных и частных мероприятий любого формата и масштаба. </h4>
+              </div>
+              <div class="events__desc">
+                <p>Команда опытных event-менеджеров и дизайнеров поможет воплотить в жизнь ваши самые креативные идеи, подготовит оригинальный сценарий и оформление любого события.</p>
+              </div>
+            </div>
+            <div class="events-slider js-events-slider swiper-container">
+              <div class="swiper-wrapper">
+                <div class="events-block swiper-slide"><img src="images/events-1.jpg" alt="image"></div>
+                <div class="events-block swiper-slide"><img src="images/events-1.jpg" alt="image"></div>
+                <div class="events-block swiper-slide"><img src="images/events-1.jpg" alt="image"></div>
+                <div class="events-block swiper-slide"><img src="images/events-1.jpg" alt="image"></div>
+              </div>
+              <div class="navigation-arrows navigation-arrows--white">
+                <div class="navigation-arrows__item js-prev-event">
+                  <svg>
+                    <use xlink:href="images/sprites.svg#prev"></use>
+                  </svg>
+                </div>
+                <div class="navigation-arrows__item navigation-arrows__item--right js-next-event">
+                  <svg>
+                    <use xlink:href="images/sprites.svg#next"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="instagram"> 
+          <div class="wrapper wrapper--large">
+            <div class="instagram__top left-indent">
+              <h2 class="title-border">Instagram</h2>
+              <div class="instagram__label">Следуй за нами </div>
+              <div class="instagram__tags"> 
+                <h3>#foxlodge</h3>
+                <h3>#лисьянора </h3>
+              </div>
+            </div>
+            <div class="instagram__slider swiper-container js-slider-instagarm">
+              <div class="instagram__part swiper-wrapper">
+                        <div class="instagram-block swiper-slide">
+                          <div class="instagram-block__image anim-image js-effect"><img src="images/inst-1.jpg"></div>
+                          <div class="instagram-block__desc">
+                            <p>Чемпионат Московской области по спортинг-компакту. </p>
+                          </div>
+                        </div>
+                        <div class="instagram-block swiper-slide">
+                          <div class="instagram-block__image anim-image js-effect"><img src="images/inst-2.jpg"></div>
+                          <div class="instagram-block__desc">
+                            <p>Окунись в небо 💦</p>
+                          </div>
+                        </div>
+                        <div class="instagram-block swiper-slide">
+                          <div class="instagram-block__image anim-image js-effect"><img src="images/inst-3.jpg"></div>
+                          <div class="instagram-block__desc">
+                            <p>Вернись, лесной олень, По моему хотенью ...</p>
+                          </div>
+                        </div>
+                        <div class="instagram-block swiper-slide">
+                          <div class="instagram-block__image anim-image js-effect"><img src="images/inst-4.jpg"></div>
+                          <div class="instagram-block__desc">
+                            <p>Лето уходит, праздник остается! ☀️</p>
+                          </div>
+                        </div>
+                        <div class="instagram-block swiper-slide">
+                          <div class="instagram-block__image anim-image js-effect"><img src="images/inst-5.jpg"></div>
+                          <div class="instagram-block__desc">
+                            <p>50 оттенков зеленого ☘️🌿</p>
+                          </div>
+                        </div>
+                        <div class="instagram-block swiper-slide">
+                          <div class="instagram-block__image anim-image js-effect"><img src="images/inst-6.jpg"></div>
+                          <div class="instagram-block__desc">
+                            <p>Чемпионат Московской области по спортинг- компакту. </p>
+                          </div>
+                        </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="wrapper wrapper--large">
+          <div class="footer__part"> 
+            <div class="footer__menu">
+              <div class="menu js-menu">
+                <div class="wrapper wrapper--medium"> 
+                  <div class="header-search">
+                    <form name="search-from" action="">
+                      <label class="form-field">
+                        <input class="form-field__input form-field__input--gray" name="search" type="search" placeholder="Поиск по сайту" required>
+                      </label>
+                      <button class="header-icon header-icon--search" type="submit">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#search"></use>
+                        </svg>
+                      </button>
+                    </form>
+                  </div>
+                  <div class="menu__list">
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Размещение</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Бумеранг</a></li>
+                          <li><a class="link link--default" href="#">Коттеджи</a></li>
+                          <li><a class="link link--default" href="#">FOX-INN</a></li>
+                          <li><a class="link link--default" href="#">Лоджи Highlands</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Рестораны</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">RED DEER</a></li>
+                          <li><a class="link link--default" href="#">СПА-Кафе</a></li>
+                          <li><a class="link link--default" href="#">Барбекю</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Стрельба</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Стрельба по тарелочкам</a></li>
+                          <li><a class="link link--default" href="#">Пулевая стрельба</a></li>
+                          <li><a class="link link--default" href="#">Оружейная мастерская</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Foxland SPA</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Услуги SPA</a></li>
+                          <li><a class="link link--default" href="#">Контакты</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Развлечения</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Спортивные площадки</a></li>
+                          <li><a class="link link--default" href="#">Фитнес</a></li>
+                          <li><a class="link link--default" href="#">Ледовая Арена</a></li>
+                          <li><a class="link link--default" href="#">Прокат инвентаря</a></li>
+                          <li><a class="link link--default" href="#">Спортивные маршруты</a></li>
+                          <li><a class="link link--default" href="#">Рыбалка</a></li>
+                          <li><a class="link link--default" href="#">Детские площадки</a></li>
+                          <li><a class="link link--default" href="#">Гольф-симулятор</a></li>
+                          <li><a class="link link--default" href="#">Виртуальный тир</a></li>
+                          <li><a class="link link--default" href="#">Бильярд</a></li>
+                          <li><a class="link link--default" href="#">Боулинг</a></li>
+                          <li><a class="link link--default" href="#">Караоке</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Мероприятия</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Корпоративные мероприятия</a></li>
+                          <li><a class="link link--default" href="#">Частные мероприятия</a></li>
+                          <li><a class="link link--default" href="#">Для Event-агентств</a></li>
+                          <li><a class="link link--default" href="#">Календарь мероприятий</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Лисья нора</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">О нас</a></li>
+                          <li><a class="link link--default" href="#">Клубные и подарочные карты</a></li>
+                          <li><a class="link link--default" href="#">Новости</a></li>
+                          <li><a class="link link--default" href="#">Документы</a></li>
+                          <li><a class="link link--default" href="#">Контакты</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__block">
+              <div class="footer__data">
+                <div class="footer__coop"><small>© 2020 ООО «Лисья нора»</small><small>ОГРН 1155007000037</small></div>
+                <div class="form-mailing">
+                  <form class="js-form" name="mailing" action="#">
+                    <label class="form-field">
+                      <input class="form-field__input form-field__input--bor-orange" name="email" type="email" placeholder="Email" data-msg="Заполните поле" required>
+                    </label>
+                    <button class="form-mailing__btn" type="submit">Подписаться на новости</button>
+                  </form>
+                </div>
+                <div class="footer__links"><a class="link link--default" href="#">Правила комплекса</a><a class="link link--default" href="#">Тарифы услуг</a></div>
+              </div>
+              <div class="footer__contacts">
+                <h6 class="title-line">Контакты</h6><a class="link link--large" href="tel:+74951209229">+7 (495) 120−92−29</a>
+                <div class="soc soc--orange"><a class="soc-link" href="#">
+                    <div class="icon icon--soc icon--instagram">
+                      <svg>
+                        <use xlink:href="images/sprites.svg#instagram"></use>
+                      </svg>
+                    </div></a><a class="soc-link" href="#">
+                    <div class="icon icon--soc icon--facebbok">
+                      <svg>
+                        <use xlink:href="images/sprites.svg#facebbok"></use>
+                      </svg>
+                    </div></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="popup js-popup" data-block="feedback">
+        <div class="popup__wrapper">
+          <div class="popup__content">
+            <div class="popup__close js-popup-close">
+              <svg>
+                <use xlink:href="images/sprites.svg#close"></use>
+              </svg>
+            </div>
+            <div class="popup-block">
+              <div class="form-block" style="max-width: 730px;">
+                <h2>Пример формы обратной связи</h2>
+                <form class="form js-form" action="#">
+                  <div class="form-row">
+                    <div class="form-col">
+                      <label class="form-field">
+                        <input class="js-input form-field__input" type="text" name="name" data-msg="Заполните форму" required><span class="form-field__label">Ваше имя</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                    <div class="form-col">
+                      <label class="form-field">
+                        <input class="js-input js-input-mask form-field__input" type="tel" name="tel" data-mask="+7(999)999-99-99" data-msg="Заполните форму" required><span class="form-field__label">Ваш телефон</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                    <div class="form-col">
+                      <div class="form-field form-select">
+                        <select class="js-select" name="example" data-placeholder="Выбор значения" data-msg="Заполните форму" required>
+                          <option value=""> </option>
+                          <option value="GY">Gravity</option>
+                          <option value="ME">Mechanical</option>
+                          <option value="EL">Electronic</option>
+                          <option value="EL">Electronic</option>
+                        </select>
+                        <div class="form-field__icon"></div>
+                      </div>
+                    </div>
+                    <div class="form-line">
+                      <label class="form-field form-field-textarea">
+                        <textarea class="js-input form-field__input form-field__textarea" name="message" data-msg="Заполните форму" required></textarea><span class="form-field__label form-field__label--top">Ваше сообщение</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-bottom">
+                    <label class="form-checkbox">
+                      <input class="form-checkbox__input js-agree" type="checkbox"><span class="form-checkbox__checkmark"></span>
+                      <div class="form-checkbox__text"><small>Ознакомлен с политикой и выражаю согласие на <a href="#" target="_blank">Обработку</a> моих персональных данных. Ознакомлен с  <a href="#" target="_blank">Правилами</a> бронирования</small></div>
+                    </label>
+                    <button class="submit btn btn--red btn--large" type="submit" disabled="disabled">Отправить</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="popup__layout js-popup-close"></div>
+        </div>
+      </div>
+      <div class="popup js-popup" data-block="ajax-content">
+        <div class="popup__wrapper">
+          <div class="popup__content">
+            <div class="popup__close js-popup-close">
+              <svg>
+                <use xlink:href="images/sprites.svg#close"></use>
+              </svg>
+            </div>
+            <div class="js-ajax-wrapper"></div>
+          </div>
+          <div class="popup__layout js-popup-close"></div>
+        </div>
+      </div>
+      <div class="popup js-popup" data-block="video">
+        <div class="popup__wrapper">
+          <div class="popup__content">
+            <div class="popup__close js-popup-close">
+              <svg>
+                <use xlink:href="images/sprites.svg#close"></use>
+              </svg>
+            </div>
+            <iframe class="js-iframe" src="" allow="autoplay" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="popup__layout js-popup-close"></div>
+        </div>
+      </div>
+      <div class="popup-thank" id="popup-thank">
+        <div class="popup__wrapper">
+          <div class="popup-thank__content">
+            <div class="popup__close">
+              <svg>
+                <use xlink:href="images/sprites.svg#close"></use>
+              </svg>
+            </div>
+            <h4>Спасибо за заявку. Наши менеджеры свяжутся с вами в ближайшее время.</h4>
+          </div>
+        </div>
+      </div>
+      <script src="js/vendor.js?v=1606838343304"></script>
+      <script src="js/main.js?v=1606838343304"></script>
+    </div>
+  </body>
+</html>

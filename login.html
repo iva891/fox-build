@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Личный кабинет
+    </title>
+    <link rel="stylesheet" href="css/main.css?v=1606838342450">
+  </head>
+  <body>
+    <div class="page">
+            <header class="header header--white">
+              <div class="wrapper wrapper--line">
+                <div class="header__part">
+                  <div class="header__column"><a class="logo" href="index.html"><img class="logo-white" src="images/logo-white.svg" alt="logo"><img class="logo-dark" src="images/logo.svg" alt="logo"></a>
+                    <div class="header-lang"><a class="link link--default active" href="#">Рус</a><a class="link link--default" href="#">Eng</a></div>
+                  </div>
+                  <div class="header__column header__column--menu">
+                    <div class="btn btn--bor-white btn--small header-btn-menu js-open-menu">
+                      <div class="header-btn-menu__data">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#burger"></use>
+                        </svg><span>Меню</span>
+                      </div>
+                      <div class="header-btn-menu__data hide">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#close-orange"></use>
+                        </svg><span>Закрыть</span>
+                      </div>
+                    </div>
+                    <nav class="nav js-nav">
+                      <ul class="nav-list">
+                        <li class="nav-item"><a class="link link--default" href="#">Размещение</a></li>
+                        <li class="nav-item"><a class="link link--default" href="#">Стрельба</a></li>
+                        <li class="nav-item"><a class="link link--default" href="#">Развлечения</a></li>
+                        <li class="nav-item"><a class="link link--default" href="#">Мероприятия</a></li>
+                        <li class="nav-item"><a class="link link--default" href="#">Контакты</a></li>
+                      </ul>
+                    </nav>
+                    <div class="header-search">
+                      <form name="search-from" action="">
+                        <label class="form-field">
+                          <input class="form-field__input form-field__input--gray" name="search" type="search" placeholder="Поиск по сайту" required>
+                        </label>
+                        <button class="header-icon header-icon--search" type="submit">
+                          <svg>
+                            <use xlink:href="images/sprites.svg#search"></use>
+                          </svg>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="header__column header__column--btn"><a class="header-icon header-icon--lk" href="#">
+                      <svg>
+                        <use xlink:href="images/sprites.svg#person"></use>
+                      </svg></a><a class="btn btn--small" href="#">Забронировать</a></div>
+                </div>
+              </div>
+              <div class="menu js-menu">
+                <div class="wrapper wrapper--medium"> 
+                  <div class="header-search">
+                    <form name="search-from" action="">
+                      <label class="form-field">
+                        <input class="form-field__input form-field__input--gray" name="search" type="search" placeholder="Поиск по сайту" required>
+                      </label>
+                      <button class="header-icon header-icon--search" type="submit">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#search"></use>
+                        </svg>
+                      </button>
+                    </form>
+                  </div>
+                  <div class="menu__list">
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Размещение</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Бумеранг</a></li>
+                          <li><a class="link link--default" href="#">Коттеджи</a></li>
+                          <li><a class="link link--default" href="#">FOX-INN</a></li>
+                          <li><a class="link link--default" href="#">Лоджи Highlands</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Рестораны</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">RED DEER</a></li>
+                          <li><a class="link link--default" href="#">СПА-Кафе</a></li>
+                          <li><a class="link link--default" href="#">Барбекю</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Стрельба</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Стрельба по тарелочкам</a></li>
+                          <li><a class="link link--default" href="#">Пулевая стрельба</a></li>
+                          <li><a class="link link--default" href="#">Оружейная мастерская</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Foxland SPA</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Услуги SPA</a></li>
+                          <li><a class="link link--default" href="#">Контакты</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Развлечения</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Спортивные площадки</a></li>
+                          <li><a class="link link--default" href="#">Фитнес</a></li>
+                          <li><a class="link link--default" href="#">Ледовая Арена</a></li>
+                          <li><a class="link link--default" href="#">Прокат инвентаря</a></li>
+                          <li><a class="link link--default" href="#">Спортивные маршруты</a></li>
+                          <li><a class="link link--default" href="#">Рыбалка</a></li>
+                          <li><a class="link link--default" href="#">Детские площадки</a></li>
+                          <li><a class="link link--default" href="#">Гольф-симулятор</a></li>
+                          <li><a class="link link--default" href="#">Виртуальный тир</a></li>
+                          <li><a class="link link--default" href="#">Бильярд</a></li>
+                          <li><a class="link link--default" href="#">Боулинг</a></li>
+                          <li><a class="link link--default" href="#">Караоке</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu__column">
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Мероприятия</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">Корпоративные мероприятия</a></li>
+                          <li><a class="link link--default" href="#">Частные мероприятия</a></li>
+                          <li><a class="link link--default" href="#">Для Event-агентств</a></li>
+                          <li><a class="link link--default" href="#">Календарь мероприятий</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu-block js-mobile-menu">
+                        <h6 class="js-mobile-menu__title">Лисья нора</h6>
+                        <ul class="js-mobile-menu__list">
+                          <li><a class="link link--default" href="#">О нас</a></li>
+                          <li><a class="link link--default" href="#">Клубные и подарочные карты</a></li>
+                          <li><a class="link link--default" href="#">Новости</a></li>
+                          <li><a class="link link--default" href="#">Документы</a></li>
+                          <li><a class="link link--default" href="#">Контакты</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+      <main class="main" id="main">
+        <div class="main-top">
+          <section class="login-block">
+            <div class="wrapper">
+              <h3>Константинов Иван Павлович</h3>
+              <div class="login-menu">
+                <ul class="login-menu__list">
+                  <li class="login-menu__item"><a class="login-menu__link link link--gray-news" href="#">Мои заказы</a></li>
+                  <li class="login-menu__item"><a class="login-menu__link login-menu__link--active link--gray-news" href="#">Мои данные</a></li>
+                </ul><a class="login-menu__exit" href="#">
+                  <p class="login-menu__exit-text">Выход</p>
+                  <svg>
+                    <use xlink:href="images/sprites.svg#exit"></use>
+                  </svg></a>
+              </div>
+              <div class="form-block form-block--login">
+                <h5>Контактные данные</h5>
+                <form class="form form--login js-form" action="#">
+                  <div class="form-row">
+                    <div class="form-col">
+                      <label class="form-field">
+                        <input class="js-input form-field__input" type="text" name="lastname" data-msg="Заполните форму" required><span class="form-field__label">Фамилия*</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                    <div class="form-col">
+                      <label class="form-field">
+                        <input class="js-input form-field__input" type="text" name="name" data-msg="Заполните форму" required><span class="form-field__label">Имя*</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                    <div class="form-col">
+                      <label class="form-field">
+                        <input class="js-input form-field__input" type="text" name="middlename" data-msg="Заполните форму" required><span class="form-field__label">Отчество*</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-row form-row--login-bottom">
+                    <div class="form-col form-col--login-first">
+                      <label class="form-field">
+                        <input class="js-input js-input-mask form-field__input" type="tel" name="tel" data-mask="+7(999)999-99-99" data-msg="Заполните форму" required><span class="form-field__label">Телефон*</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                    <div class="form-col">
+                      <label class="form-field">
+                        <input class="js-input form-field__input" type="email" name="email" data-msg="Заполните форму" required><span class="form-field__label">Email*</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-bottom">
+                    <button class="submit btn btn--red btn--large" type="submit">Сохранить</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <div class="popup js-popup" data-block="feedback">
+        <div class="popup__wrapper">
+          <div class="popup__content">
+            <div class="popup__close js-popup-close">
+              <svg>
+                <use xlink:href="images/sprites.svg#close"></use>
+              </svg>
+            </div>
+            <div class="popup-block">
+              <div class="form-block" style="max-width: 730px;">
+                <h2>Пример формы обратной связи</h2>
+                <form class="form js-form" action="#">
+                  <div class="form-row">
+                    <div class="form-col">
+                      <label class="form-field">
+                        <input class="js-input form-field__input" type="text" name="name" data-msg="Заполните форму" required><span class="form-field__label">Ваше имя</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                    <div class="form-col">
+                      <label class="form-field">
+                        <input class="js-input js-input-mask form-field__input" type="tel" name="tel" data-mask="+7(999)999-99-99" data-msg="Заполните форму" required><span class="form-field__label">Ваш телефон</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                    <div class="form-col">
+                      <div class="form-field form-select">
+                        <select class="js-select" name="example" data-placeholder="Выбор значения" data-msg="Заполните форму" required>
+                          <option value=""> </option>
+                          <option value="GY">Gravity</option>
+                          <option value="ME">Mechanical</option>
+                          <option value="EL">Electronic</option>
+                          <option value="EL">Electronic</option>
+                        </select>
+                        <div class="form-field__icon"></div>
+                      </div>
+                    </div>
+                    <div class="form-line">
+                      <label class="form-field form-field-textarea">
+                        <textarea class="js-input form-field__input form-field__textarea" name="message" data-msg="Заполните форму" required></textarea><span class="form-field__label form-field__label--top">Ваше сообщение</span><span class="form-field__icon"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-bottom">
+                    <label class="form-checkbox">
+                      <input class="form-checkbox__input js-agree" type="checkbox"><span class="form-checkbox__checkmark"></span>
+                      <div class="form-checkbox__text"><small>Ознакомлен с политикой и выражаю согласие на <a href="#" target="_blank">Обработку</a> моих персональных данных. Ознакомлен с  <a href="#" target="_blank">Правилами</a> бронирования</small></div>
+                    </label>
+                    <button class="submit btn btn--red btn--large" type="submit" disabled="disabled">Отправить</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="popup__layout js-popup-close"></div>
+        </div>
+      </div>
+      <div class="popup js-popup" data-block="ajax-content">
+        <div class="popup__wrapper">
+          <div class="popup__content">
+            <div class="popup__close js-popup-close">
+              <svg>
+                <use xlink:href="images/sprites.svg#close"></use>
+              </svg>
+            </div>
+            <div class="js-ajax-wrapper"></div>
+          </div>
+          <div class="popup__layout js-popup-close"></div>
+        </div>
+      </div>
+      <div class="popup js-popup" data-block="video">
+        <div class="popup__wrapper">
+          <div class="popup__content">
+            <div class="popup__close js-popup-close">
+              <svg>
+                <use xlink:href="images/sprites.svg#close"></use>
+              </svg>
+            </div>
+            <iframe class="js-iframe" src="" allow="autoplay" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="popup__layout js-popup-close"></div>
+        </div>
+      </div>
+      <div class="popup-thank" id="popup-thank">
+        <div class="popup__wrapper">
+          <div class="popup-thank__content">
+            <div class="popup__close">
+              <svg>
+                <use xlink:href="images/sprites.svg#close"></use>
+              </svg>
+            </div>
+            <h4>Спасибо за заявку. Наши менеджеры свяжутся с вами в ближайшее время.</h4>
+          </div>
+        </div>
+      </div>
+      <script src="js/vendor.js?v=1606838342452"></script>
+      <script src="js/main.js?v=1606838342452"></script>
+    </div>
+  </body>
+</html>
